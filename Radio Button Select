@@ -1,0 +1,14 @@
+   RadioGroup genGroup;
+   RadioButton gender;
+ 
+ 
+  genGroup = (RadioGroup) findViewById(R.id.gendergroup);
+  
+ 
+  
+  
+  int RadioId = genGroup.getCheckedRadioButtonId();
+                gender = findViewById(RadioId);
+                
+                
+                 String Gender = gender.getText().toString();
